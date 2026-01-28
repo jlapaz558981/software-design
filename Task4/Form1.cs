@@ -1,4 +1,4 @@
-namespace lab1
+namespace Task4
 {
     public partial class Form1 : Form
     {
@@ -6,12 +6,6 @@ namespace lab1
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         public int[] ProceduralSort(int[] numbers)
         {
             Array.Sort(numbers);
